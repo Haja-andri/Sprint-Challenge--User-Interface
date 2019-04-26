@@ -50,6 +50,7 @@ The main four areas are:
 Content : Where the actual contents will be displayed
 Border: Which will surround the content, it is invisible by default unless specified otherwise in the CSS
 Padding: which is the white space between the content and the borders
+Margin: The white space around the box outside.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
