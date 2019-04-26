@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a set of HTML Tags that are defined as a standard, and make the HTML file "understandable" by the human readers. This is possible as the TAGs are sufficiently meaningful by their namings convention, thus their qualification as being "Semantic".  
+Example would be <p> and <a> tags that stand for "paragraphe" and "anchor" respectively. As opposed to <div> which is not semantic as there is no intuitive/logical meaning to it.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The main difference between display: block; and display: inline; is the way they affect the layout of the page/section they are in.
+Display:inline will not affect the general layout and will just follow the general flow of its existing environment.
+
+Display:block, will break the layout of its environement and will require specific CSS to be correctly positionned and styled.
 
 3. What are the 4 areas of the box model?
 
+The main four areas are: 
+Content : Where the actual contents will be displayed
+Border: Which will surround the content, it is invisible by default unless specified otherwise in the CSS
+Padding: which is the white space between the content and the borders
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items: center will affect the cross axis (perpendicular to the main axis) positioning of the elements inside the container. It will the item in the center of the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable because at the highest level it allows to version control the code sources. This mean that it keeps track of the history/change of any files and can retrieve any version of those files at any point of time if required. It also allow smooth collaboration among team members to work together/simultanuously on the same file and/or project safely using various flow and thechnique such as "Branch" and "Forking". In short developpers focus on developping their features git keep the integrity off the overall application (provided that a best practices and understanding are in place).
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
