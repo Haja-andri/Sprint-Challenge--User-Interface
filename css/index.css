@@ -98,6 +98,14 @@ nav a {
 	font-weight: bold;
 }
 
+a:link {
+    color: red;
+  }
+
+.text-container a {
+    text-decoration: none; 
+}
+
 .fullRow{
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -195,10 +203,15 @@ nav a {
 	width: 200px;
 	padding: 10px;
     text-align: center;
+    color: #333333;
 	border-radius: 5px;
 	background-color: whitesmoke;    
 }
 
+.contact{
+    color:#333;
+    font-style: italic;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
